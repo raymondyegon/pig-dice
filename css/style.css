@@ -1,0 +1,28 @@
+.form{
+  margin-left: 25%;
+  margin-right: 25%;
+  border: 4px solid blue;
+}
+.row {
+  margin-left: 25%;
+}
+.dice-position {
+  margin-left: 40%;
+}
+.dice {
+  border: 4px solid blue;
+  width: 100px;
+  height: 100px;
+  text-align: center;
+  padding-top: 0.4cm;
+}
+#dice {
+  font-size: 300%;
+}
+.button {
+  margin-left: 25%;
+  margin-right: 5cm;
+}
+#scoring {
+    margin-left: 40%;
+}
