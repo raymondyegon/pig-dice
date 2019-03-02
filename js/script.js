@@ -4,12 +4,17 @@
 function rolling() {
   myVar=setInterval(roll, 10)
 }
+
 function roll(){
-  var ran = Math.floor(1 + Math.random()*6);
+  var ran =Math.floor(1 + Math.random()*6);
   document.getElementById('dice').innerHTML=ran
 }
 
 //Function to stop the rolling
 function stop(){
   clearInterval(myVar);
+}
+function number() {
+  var num = document.getElementById('dice').innerHTML
+  return alert (num)
 }
