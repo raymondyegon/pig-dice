@@ -25,7 +25,7 @@ function stop(){
   clearInterval(myVar);
   var num = parseInt(document.getElementById('dice').innerHTML)
   if (num == 1) {
-    totalscore = 0
+    totalscore += 0
     document.getElementById('gains').innerHTML='0'
   } else {
     document.getElementById('gains').innerHTML= ad(num)
@@ -38,4 +38,4 @@ function number() {
   document.getElementById('score').innerHTML= totalscore
 }
 
-//
+
